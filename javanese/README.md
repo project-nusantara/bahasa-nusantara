@@ -6,7 +6,7 @@ nusantara - Javanese adalah model yang dibuat dengan spaCy untuk keperluan *natu
 ## Kinerja Model
 Model ini memiliki skor evaluasi pada korpus tes sebagai berikut:
 | Komponen |  Skor  |
----------------------
+|----------|--------|
 | TOK      | 99.93  |
 | TAG      | 85.67  |
 | POS      | 87.16  |
