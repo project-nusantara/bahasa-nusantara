@@ -1,7 +1,7 @@
 # nusantara - Javanese
 
 ## Deskripsi Model
-nusantara - Javanese adalah model yang dibuat dengan spaCy untuk keperluan *natural language processing* data teks berbahasa Jawa. Model ini dibangun dengan menggunakan korpus [UD_Javanese-UI](https://github.com/UniversalDependencies/UD_Javanese-CSUI) yang merupakan *dependency treebank* bahasa Jawa, sebuah bahasa daerah di Indonesia dengan lebih dari 68 juta pengguna. Korpus ini dikembangkan oleh Alfina dkk. dari Fakultas Ilmu Komputer Universitas Indonesia. Versi terbaru memiliki 1000 kalimat dan 14 ribu kata dengan anotasi manual.
+nusantara - Javanese adalah model yang dibuat dengan spaCy untuk keperluan *natural language processing* data teks berbahasa Jawa. Model ini dibangun dengan menggunakan korpus [UD_Javanese-UI](https://github.com/UniversalDependencies/UD_Javanese-CSUI) yang merupakan *dependency treebank* bahasa Jawa, sebuah bahasa daerah di Indonesia dengan lebih dari 68 juta pengguna. Korpus ini dikembangkan oleh Alfina dkk. dari Fakultas Ilmu Komputer Universitas Indonesia. Versi terbaru memiliki 1000 kalimat dan 14 ribu kata dengan anotasi manual. Model ini, saat ini memiliki pipeline untuk *tokenizer*, *tagger*, *parser*, dan *lemmatizer* dan ke depan akan ditambahkan untuk *ner* dan *textcat*.
 
 ## Kinerja Model
 Model ini memiliki skor evaluasi pada korpus tes sebagai berikut:
