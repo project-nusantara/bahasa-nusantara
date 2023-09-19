@@ -24,3 +24,16 @@ Untuk melakukan instalasi model nusantara - Javanese dapat dilakukan dengan peri
 $ pip install xx_jv_nusantara-1.0.tar.gz
 ```
 
+## Penggunaan Model
+Berikut adalah contoh penggunaan model nusantara - Javanese:
+```
+import spacy
+
+nlp = spacy.load("xx_jv_nusantara")
+
+sample_text = "Menawi panjenengan kepingin dipun damelaken shufa, panjenengan saged dhateng ing lantai kalih Peken Gedhe iring kilen, wiwit jam 16.00 WIB ngantos jam 21.00 WIB, sadangunipun gumelaring Solo Imlek Fair. Shufa punika dipun cawisaken kanthi lelahanan minangka program memetri Kabudayan Tionghoa."
+doc = nlp(sample_text)
+
+for sent in doc.sents:
+    print(sent.text)
+```
